@@ -1,17 +1,70 @@
 <!DOCTYPE html>
 <html>
 
-background-color: 646464;
+background_color: 646464;
 
 	<body>
+	
+
 		<h1> niSa's Piqued </h1>
-		<p> Things I'm willing to talk about </p>
+		<h2> Things I'm willing to talk about </h2>
+
 		<main>
 			<section>
-				<h2><a href="_blank" target="blank">Mouses</h2>
+				<h3><a href="_blank" target="blank">Mouses</a></h3>
 				<h3>Mousepads</h3>
 
+				<h3>Mental health journey</h3>
+				<img src="https://pbs.twimg.com/media/EUgSQRcUEAAAuvU.jpg" style="20px,20px,20px" > 
+
 			</section>
+
+			<section>
+				<h5>Subscribe to be notified when I update my Journey!</h5>
+				<form>
+					<input type="text" name="email" placeholder="Email Address" required>
+					<button>Subscribe!</button>
+				</form>
+			</section>
+			<div> </div>
+
+
+
+
+
+		</main>
+
+
+
+
+			 <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "okaynisa",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["twitch.tv/okaynisa", "othersite.example.com"]
+      });
+    </script>
+   <iframe
+    src="https://player.twitch.tv/?okaynisa=dallas&parent=streamernews.example.com&muted=true"
+    height="720"
+    width="1280"
+    allowfullscreen>
+</iframe>
+    <iframe id="twitch-chat-embed"
+        src="https://www.twitch.tv/embed/okaynisa/chat?parent=dev.twitch.tv"
+        height="500"
+        width="350">
+		</iframe>
+
 
 	</body>
 
